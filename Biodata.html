@@ -1,0 +1,63 @@
+
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Biodata_files/vue.global.js.download"></script>
+
+</head><body><div id="app">
+  <h1>Biodata</h1>
+  <form action="http://127.0.0.1:5500/index.html">
+    <label for="">Nama Lengkap</label> <br>
+    <input type="text" v-model="name"> <br> 
+    <br>
+
+    <label for="">Nama Panggilan</label> <br>
+    <input type="text" v-model="summons"> <br> 
+    <br>
+
+    <label for="">Usia</label> <br>
+    <input type="number" v-model="age"> <br> 
+    <br>
+
+    <label for="">Hobi</label> <br>
+    <input type="text" v-model="hoby"> <br> 
+    <br>
+
+    <label for="">Tanggal Lahir</label> <br>
+    <input type="text" v-model="date of birth"> <br>
+    <br>
+
+
+    <label for="">Kota Kelahiran</label> <br>
+    <select v-model="city">
+      <option value="Sumedang">Sumedang</option>
+      <option value="Jakarta">Jakarta</option>
+      <option value="Banten">Banten</option>
+      <option value="Kuningan">Kuningan</option>
+    </select>
+    <br>
+    <br>
+
+    <label for="">Jenis Kelamin</label> <br>
+    <input type="checkbox" id="Laki-laki" value="Laki-laki" v-model="checkedNames">
+    <label for="Laki-laki">Laki-laki</label> <br>
+    <input type="checkbox" id="Perempuan" value="Perempuan" v-model="checkedNames">
+    <label for="Perempuan">Perempuan</label><br>
+    <br>
+
+    <label for="">Anak ke</label> <br>
+    <input type="text" v-model="child">
+    <label for="">dari</label>
+    <input type="text" v-model="from"> <br>
+    <br>
+
+    <label for="">Alamat</label> <br>
+    <textarea v-model="address" cols="30" rows="10"></textarea> <br>
+    <br>
+
+    <label for="">Asal Sekolah</label> <br>
+    <textarea v-model=" Origin of School" cols="30" rows="10"></textarea> <br>
+    <br>
+
+    <input type="submit" value="kirim">
+  </form>
+</div>
+</body></html>
